@@ -1,0 +1,22 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #e7e2cc;
+    color: #1f375c;
+    letter-spacing: 5px;
+}
+
+.container{
+}
+
+.title{
+    position: absolute;
+    left: 5%;
+    font-size: 45px;
+}
+
+.content{
+    position: absolute;
+    left: 15%;
+    top: 500px;
+    font-size: 30px;
+}

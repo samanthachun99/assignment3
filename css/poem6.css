@@ -1,0 +1,51 @@
+body{
+    font-family: 'Tajawal', sans-serif;
+    background-color: #242a44;
+    color: #f1d24c;
+    letter-spacing: 5px;
+    animation: text1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.container{
+
+}
+
+.title{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    font-size: 30px;
+    line-height: 10px;
+
+}
+
+.content{
+    position: absolute;
+    top: 200px;
+    left: 40px;
+
+}
+
+@keyframes text1 {
+        0%{
+            color: #f1d24c;
+        }
+
+        25%{
+            color: #eba243;
+        }
+
+        50%{
+            color: #a2cb56;
+        }
+
+        75%{
+            color: #f08bca;
+        }
+
+        100%{
+            color: #f1d24c;
+        }
+}

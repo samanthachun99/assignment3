@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: #f1d0e1;
+}
+
+.container{
+
+}
+
+.title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.content{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    left: 25%;
+    top: 550px;
+    line-height: 25px;
+    font-size: 25px;
+}

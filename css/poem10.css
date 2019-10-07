@@ -1,0 +1,173 @@
+body {
+    background-color: #ffa45c;
+    color: white;
+}
+
+.container {}
+
+.title {
+    font-family: 'Enriqueta', serif;
+    width: 900px;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    left: calc(50% - 450px);
+}
+
+.content {
+    font-family: 'Josefin Slab', serif;
+    font-size: 40px;
+    width: 900px;
+    position: absolute;
+    top: 750px;
+    left: calc(50% - 450px);
+    text-align: center;
+}
+
+.line {
+    width: 200px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 700px;
+    left: calc(50% - 100px);
+    animation-name: line1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.line2 {
+    width: 200px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 700px;
+    left: calc(50% - 100px);
+    animation-name: line2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes line1 {
+    0% {
+        left: calc(50% - 100px);
+    }
+
+    50% {
+        left: calc(20% - 100px);
+    }
+
+    100% {
+        left: calc(50% - 100px);
+    }
+}
+
+@keyframes line2 {
+    0% {
+        left: calc(50% - 100px);
+    }
+
+    50% {
+        left: calc(80% - 100px);
+    }
+
+    100% {
+        left: calc(50% - 100px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #9be78c;
+    }
+
+    .container {}
+
+    .title {
+        font-family: 'Enriqueta', serif;
+        width: 400px;
+        font-size: 30px;
+        text-align: center;
+        position: absolute;
+        left: calc(50% - 200px);
+    }
+
+    .content {
+        font-family: 'Josefin Slab', serif;
+        font-size: 20px;
+        width: 500px;
+        position: absolute;
+        top: 500px;
+        left: calc(50% - 250px);
+        text-align: center;
+        animation-name: contenta;
+    }
+
+    .line {
+        width: 0px;
+        height: 0px;
+        color: #9be78c;
+        background-color: #9be78c;
+        position: absolute;
+        top: 700px;
+        left: calc(50% - 100px);
+        animation-name: line1;
+        animation-duration: 4s;
+        animation-iteration-count: ;
+    }
+
+    .line2 {
+        width: 0px;
+        height: 0px;
+        color: #9be78c;
+        background-color: #9be78c;
+        position: absolute;
+        top: 700px;
+        left: calc(50% - 100px);
+        animation-name: line2;
+        animation-duration: 4s;
+        animation-iteration-count: ;
+    }
+
+    @keyframes contenta {
+        0% {
+            line-height: 10px;
+        }
+
+        50% {
+            line-height: 20px;
+        }
+
+        100% {
+            line-height: 10px;
+        }
+    }
+
+    @keyframes line1 {
+        0% {
+            left: 0px;
+        }
+
+        50% {
+            left: 0px;
+        }
+
+        100% {
+            left: 0px;
+        }
+    }
+
+    @keyframes line2 {
+        0% {
+            left: 0px;
+        }
+
+        50% {
+            left: 0px;
+        }
+
+        100% {
+            left: 0px;
+        }
+    }
+}

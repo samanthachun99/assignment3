@@ -1,0 +1,30 @@
+body{
+    font-family: 'Questrial', sans-serif;
+    background-color: #f79521;
+    color: white;
+}
+
+.container{
+
+}
+
+.title{
+    position: absolute;
+    left: 100px;
+    width: 500px;
+    font-size: 90px;
+    line-height: 170px;
+    text-align: right;
+}
+
+.content{
+    position: absolute;
+    width: 400px;
+    left: 700px;
+    top: 250px;
+    line-height: 30px;
+}
+
+#author{
+    line-height: 100px;
+}

@@ -1,0 +1,38 @@
+body{
+    font-family: 'BenchNine', sans-serif;
+    background-color: #393939;
+    color: #caa0db;
+}
+
+.container{
+
+}
+
+.title{
+    position: absolute;
+    top: 10%
+    left: 15%;
+    animation-name: type;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.content{
+    position: absolute;
+    right: 10%;
+    top: 250px;
+    text-align: right;
+    font-size: 30px;
+
+}
+
+@keyframes type {
+    from{
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    to{
+        letter-spacing: 30px;
+        font-size: 50px;
+    }
+}
