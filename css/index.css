@@ -1,0 +1,46 @@
+body{
+    background-color: #9b849f;
+    color: white;
+}
+
+.title{
+    font-size: 130px;
+    font-family: 'Poppins', sans-serif;
+    width: 1000px;
+    position: absolute;
+    left: calc(50% - 500px);
+    top: 50px;
+    text-align: center;
+    animation-name: title;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.links{
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 250px;
+    right: 275px;
+    text-align: right;
+    font-size: 30px;
+    line-height: 50px;
+
+}
+
+@keyframes title {
+    0%{
+        color: white;
+    }
+    25%{
+        color: #fff6a8;
+    }
+    50%{
+        color: #b1e090;
+    }
+    75%{
+        color: #b9e4ff;
+    }
+    100%{
+        color: white;
+    }
+}
